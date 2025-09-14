@@ -1,0 +1,41 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Backup / snapshot files
+*backup*.*
+*.bak
+*.tmp
+*~
+.#*
+Thumbs.db
+.DS_Store
+
+# Explicit backup files
+src/main_backup_12sep2025.jsx
+src/App_backup_12sep2025.jsx
+src/App_backup_12sep2025.css
+src/index_backup_12sep2025.css
+src/LoginRegister_backup_12sep2025.css
+src/LoginRegister_backup_12sep2025.jsx

@@ -1,0 +1,4 @@
+.illustration-surface.dynamic-bg {
+  --illus-bg: linear-gradient(135deg,#f5f7fb 0%,#d9d2ff 100%);
+  background: var(--illus-bg);
+}
