@@ -14,6 +14,16 @@ Interfaz moderna de autenticación con efectos glass / gradientes, gestión de s
 
 </div>
 
+---
+
+## 🌐 Despliegue en Vercel
+
+Puedes probar la demo en producción aquí:
+
+[https://landing-page-autenticacion-robusta.vercel.app/](https://landing-page-autenticacion-robusta.vercel.app/)
+
+---
+
 ## ✨ Características principales
 
 - UI moderna (glassmorphism, gradientes, sombras suaves, dark mode persistente)
@@ -135,17 +145,7 @@ Pseudoflujo:
 
 ---
 
-## 🧬 Migración a TypeScript (Completada)
-
-### ¿Por qué?
-Agregar tipos estrictos reduce errores silenciosos, facilita el refactor, brinda autocompletado más preciso en el IDE y documenta contratos de datos (sesión, historial, criterios de contraseña) sin comentarios redundantes.
-
-### Principales pasos realizados
-1. Se añadió `tsconfig.json` con modo estricto (`strict: true`).
-2. Se incorporaron tipos de React (`@types/react`, `@types/react-dom`) y de Three.js (`@types/three`).
-3. Se creó `global.d.ts` para declarar módulos de imágenes y otros assets.
 4. Archivos migrados `.jsx` → `.tsx`: `main`, `App`, `AuthLayout`, `IllustrationPanel`, `NetworkBackground`, `AuthForm`.
-5. Se tiparon estructuras clave:
 	- `SessionPayload` (sesión activa)
 	- `HistoryItem` (entrada historial)
 	- `StatusMsg` (toasts de estado)
@@ -153,7 +153,6 @@ Agregar tipos estrictos reduce errores silenciosos, facilita el refactor, brinda
 6. Reemplazo de estilos inline críticos por clases en `AuthForm.css` para reducir ruido y cumplir linters.
 7. Ajustes de accesibilidad: `aria-invalid` ahora usa strings `'true'|'false'`.
 8. Eliminación de archivos `.jsx` obsoletos tras verificación visual.
-
 ### Cambios notables de diseño / código
 - Eliminación de lógica placeholder y reinstalación completa del JSX de sesión y formulario dentro de `AuthForm.tsx`.
 - Extracción de estilos de contadores, avatar y barras de progreso a clases reutilizables (`countdown-pill`, `form-avatar`, `pw-bar`, etc.).
