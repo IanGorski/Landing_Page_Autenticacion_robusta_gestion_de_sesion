@@ -21,7 +21,7 @@ Interfaz moderna de autenticación con efectos glass / gradientes, gestión de s
 
 Puedes probar la demo en producción aquí:
 
-[![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?logo=vercel)](https://landing-page-autenticacion-robusta.vercel.app/) [🌐 Demo en producción](https://landing-page-autenticacion-robusta.vercel.app/)
+[![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?logo=vercel)](https://landing-page-autenticacion-robusta.vercel.app/) 
 
 ---
 
